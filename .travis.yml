@@ -1,5 +1,5 @@
 language: android
-jdk: oraclejdk7
+jdk: oraclejdk8
 android:
   components:
     # Uncomment the lines below if you want to
@@ -35,4 +35,4 @@ before_script:
 
 sudo: false
 
-script: ./gradlew connectedAndroidTest
+script: ./gradlew build connectedCheck
